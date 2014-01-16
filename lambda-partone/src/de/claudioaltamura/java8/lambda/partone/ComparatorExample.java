@@ -7,7 +7,7 @@ import java.util.Comparator;
 public class ComparatorExample {
 
 	public static void main(String[] args) {
-		//Setup
+		//setup
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(4);
 		list.add(3);
