@@ -1,4 +1,4 @@
-package de.claudioaltamura.java8.lambda.parttwo;
+package de.claudioaltamura.java8.lambda.parttwo.consumer;
 
 public class Person {
 
