@@ -2,6 +2,10 @@ package de.claudioaltamura.java8.lambda.parttwo.predicate;
 
 import java.util.function.Predicate;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class PredicateAndExample {
 
 	public static void main(String[] args) {

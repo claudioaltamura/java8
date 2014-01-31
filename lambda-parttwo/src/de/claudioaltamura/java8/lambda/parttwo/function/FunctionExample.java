@@ -2,6 +2,10 @@ package de.claudioaltamura.java8.lambda.parttwo.function;
 
 import java.util.function.Function;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class FunctionExample {
 
 	public static void main(String[] args) {

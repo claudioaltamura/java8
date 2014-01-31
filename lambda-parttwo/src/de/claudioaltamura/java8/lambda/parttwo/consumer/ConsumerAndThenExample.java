@@ -2,6 +2,10 @@ package de.claudioaltamura.java8.lambda.parttwo.consumer;
 
 import java.util.function.Consumer;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class ConsumerAndThenExample {
 
 	public static void main(String[] args) {
