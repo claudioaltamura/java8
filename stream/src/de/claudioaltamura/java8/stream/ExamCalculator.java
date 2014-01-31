@@ -33,10 +33,18 @@ public class ExamCalculator {
 		System.out.println("averageGrade = " + averageGrade);
 		
 		//stream way
-		List<Map<Exam, Grade>> allExams = new ArrayList<Map<Exam, Grade>>();
+		final List<Grade> allGrades = new ArrayList<Grade>();
 		for(Student s : students) {
-			allExams.add(s.getExams());
+			for (Grade value : s.getExams().values()) {
+				allGrades.add(value);
+			}
 		}
+//		int x = allGrades.stream()
+//			.map((Function<Grade,Integer>) (g) -> g.getGrade())
+//			.reduce(0, (Integer a, Integer b) -> 
+//				a + b / allGrades.size()	
+//			);
+//		System.out.println("stream way, averageGrade = " + x);
 		
 	}
 
