@@ -45,7 +45,6 @@ public class ExamCalculator {
 //				a + b / allGrades.size()	
 //			);
 //		System.out.println("stream way, averageGrade = " + x);
-		
 	}
 
 	private static float calculateAverageGrade(List<Student> students) {
