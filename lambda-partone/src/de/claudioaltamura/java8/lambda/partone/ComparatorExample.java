@@ -4,16 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Comparator;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class ComparatorExample {
 
 	public static void main(String[] args) {
-		//setup
+		// setup
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(4);
 		list.add(3);
-		
-		//classic way
-		list.sort(new Comparator<Integer>(){
+
+		// classic way
+		list.sort(new Comparator<Integer>() {
 
 			@Override
 			public int compare(Integer a, Integer b) {
@@ -21,12 +25,12 @@ public class ComparatorExample {
 			}
 		});
 		System.out.println(list);
-		
-		//lambda way
+
+		// lambda way
 		list.sort((Integer a, Integer b) -> {
-			return b - a;
+			return a - b;
 		});
 		System.out.println(list);
-		
+
 	}
 }
