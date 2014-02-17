@@ -1,5 +1,9 @@
 package de.claudioaltamura.java8.defaultmethods;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Client implements DefaultMethodInterface{
 
 	public static void main(String[] args) {
