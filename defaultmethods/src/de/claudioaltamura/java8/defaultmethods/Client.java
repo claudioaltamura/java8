@@ -4,7 +4,7 @@ package de.claudioaltamura.java8.defaultmethods;
  * @author Claudio Altamura
  * @see http://www.claudioaltamura.de
  */
-public class Client implements DefaultMethodInterface{
+public class Client{
 
 	public static void main(String[] args) {
 		//classic way
@@ -12,7 +12,8 @@ public class Client implements DefaultMethodInterface{
 		classicWay.method();
 
 		//default method
-		Client client = new Client();
-		client.method();
+		//Have you seen the extra {} ?
+		DefaultMethodInterface defaultMethodInterface = new DefaultMethodInterface(){};
+		defaultMethodInterface.method();
 	}
 }
