@@ -26,10 +26,8 @@ public class ComparatorExample {
 		});
 		System.out.println(list);
 
-		// lambda way
-		list.sort((Integer a, Integer b) -> {
-			return a - b;
-		});
+		// lambda way, the shortest way
+		list.sort((a, b) -> a - b);
 		System.out.println(list);
 
 	}
