@@ -1,0 +1,3 @@
+def projects = ["defaultmethods", "lambda-partone", "lambda-parttwo", "methodreferences", "stream"]
+println projects
+include (*projects)
