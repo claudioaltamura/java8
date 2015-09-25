@@ -17,7 +17,6 @@ public class PersonLister {
 		persons.add(new Person("Kevin", 5, Person.Gender.MALE));		
 		persons.add(new Person("Mandy", 19, Person.Gender.FEMALE));
 
-		//Method Reference
 		Collection<Person> eighteen = lister.list(persons, (Person p) -> p.getAge() >= 18);
 		System.out.println(eighteen);
 		
