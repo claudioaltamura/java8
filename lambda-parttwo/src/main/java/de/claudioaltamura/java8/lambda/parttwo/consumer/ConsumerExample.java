@@ -2,6 +2,8 @@ package de.claudioaltamura.java8.lambda.parttwo.consumer;
 
 import java.util.function.Consumer;
 
+import de.claudioaltamura.java8.lambda.parttwo.Person;
+
 /**
  * @author Claudio Altamura
  * @see http://www.claudioaltamura.de
