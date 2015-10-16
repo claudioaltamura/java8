@@ -1,6 +1,5 @@
 package de.claudioaltamura.java8.methodreferences;
 
-
 /**
  * @author Claudio Altamura
  * @see http://www.claudioaltamura.de
