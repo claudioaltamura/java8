@@ -22,7 +22,7 @@ public class PredicateExample {
 		};
 		
 		System.out.println("Primzahl 1: " + prime.test(1));
-		System.out.println("Primzahl 1: " + prime.test(3));
+		System.out.println("Primzahl 3: " + prime.test(3));
 	}
 
 }

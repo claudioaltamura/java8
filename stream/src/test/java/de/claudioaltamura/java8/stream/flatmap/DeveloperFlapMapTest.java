@@ -8,6 +8,10 @@ import java.util.stream.Collectors;
 
 import org.junit.Test;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class DeveloperFlapMapTest {
 
     @Test

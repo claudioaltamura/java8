@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class RemoveAndReplace {
 
 	public static void main(final String[] args)

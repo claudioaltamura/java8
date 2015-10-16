@@ -1,5 +1,9 @@
 package de.claudioaltamura.java8.stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Exam {
 
 	private String name;

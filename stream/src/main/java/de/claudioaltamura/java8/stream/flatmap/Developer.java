@@ -3,6 +3,10 @@ package de.claudioaltamura.java8.stream.flatmap;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Developer {
 
     private String name;

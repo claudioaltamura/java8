@@ -3,6 +3,10 @@ package de.claudioaltamura.bulkoperations;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class InternalIteration {
 
 	public static void main(String[] args) {

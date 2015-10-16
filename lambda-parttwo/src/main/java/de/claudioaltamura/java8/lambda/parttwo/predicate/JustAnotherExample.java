@@ -4,6 +4,10 @@ import java.util.function.Predicate;
 
 import de.claudioaltamura.java8.lambda.parttwo.Person;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class JustAnotherExample {
 
 	public static void main(String[] args) {

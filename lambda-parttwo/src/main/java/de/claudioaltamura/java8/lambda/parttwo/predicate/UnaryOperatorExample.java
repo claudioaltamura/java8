@@ -2,6 +2,10 @@ package de.claudioaltamura.java8.lambda.parttwo.predicate;
 
 import java.util.function.UnaryOperator;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class UnaryOperatorExample {
 	
 	public static void main(final String[] args)

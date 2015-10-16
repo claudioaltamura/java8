@@ -7,6 +7,10 @@ import java.util.function.Predicate;
 import de.claudioaltamura.java8.lambda.parttwo.Gender;
 import de.claudioaltamura.java8.lambda.parttwo.Person;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class AndOrExample {
 
 	public static void main(String[] args) {

@@ -3,6 +3,10 @@ package de.claudioaltamura.java8.stream;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Student {
 
 	private String name;
