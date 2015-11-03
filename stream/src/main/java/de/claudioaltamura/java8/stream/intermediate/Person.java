@@ -1,9 +1,5 @@
 package de.claudioaltamura.java8.stream.intermediate;
 
-/**
- * @author Claudio Altamura
- * @see http://www.claudioaltamura.de
- */
 public class Person {
 
 	private String name;

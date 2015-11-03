@@ -21,13 +21,13 @@ public class MapExample {
 		final List<String> ignoreableWords = Arrays.asList("Eins");
 		final Predicate<String> isIgnorableWord = word ->
 		{
-		return ignoreableWords.contains(word.toLowerCase());
+			return ignoreableWords.contains(word.toLowerCase());
 		};
+		
 		final Predicate<String> isSignificantWord = isIgnorableWord.negate();
 		final Stream<String> filteredContents = words.map(String::trim).
 		filter(notIsShortWord).
 		filter(isSignificantWord);
 		filteredContents.forEach(it -> System.out.print(it + ", "));
-
 	}
 }
