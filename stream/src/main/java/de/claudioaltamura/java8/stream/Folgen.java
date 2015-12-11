@@ -5,6 +5,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Folgen {
 	
 	public static void main(String[] args) {

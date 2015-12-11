@@ -5,8 +5,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import de.claudioaltamura.java8.stream.intermediate.Person;
+import de.claudioaltamura.java8.stream.Person;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class CollectExample {
 	
 	public static void main(final String[] args) {

@@ -6,6 +6,10 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class StreamExample {
 
 	@SuppressWarnings("unused")

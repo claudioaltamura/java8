@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class MapExample {
 
 	public static void main(String[] args) {
@@ -26,8 +30,8 @@ public class MapExample {
 		
 		final Predicate<String> isSignificantWord = isIgnorableWord.negate();
 		final Stream<String> filteredContents = words.map(String::trim).
-		filter(notIsShortWord).
-		filter(isSignificantWord);
-		filteredContents.forEach(it -> System.out.print(it + ", "));
+				filter(notIsShortWord).
+				filter(isSignificantWord);
+			filteredContents.forEach(it -> System.out.print(it + ", "));
 	}
 }

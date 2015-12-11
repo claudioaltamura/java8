@@ -2,6 +2,10 @@ package de.claudioaltamura.java8.stream.intermediate.state;
 
 import java.util.stream.IntStream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class LimitSkipExample {
 
 	public static void main(final String[] args) {

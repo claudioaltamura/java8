@@ -18,9 +18,9 @@ public class CsvStreamTest {
         mascots.add("juggy");
 
         String expected = "duke,juggy";
-//        String actual = mascots.stream().
-//                reduce((t, u) -> t + "," + u).
-//                get();
-//        assertThat(actual, is(expected));
+        String actual = mascots.stream().
+                reduce((t, u) -> t + "," + u).
+                get();
+        assertThat(actual, is(expected));
     }
 }

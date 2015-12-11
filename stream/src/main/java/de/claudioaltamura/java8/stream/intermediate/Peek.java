@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+import de.claudioaltamura.java8.stream.Person;
+
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Peek {
 
 	public static void main(String[] args) {

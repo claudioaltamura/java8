@@ -3,6 +3,10 @@ package de.claudioaltamura.java8.stream.terminal;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class ForEachExample {
 
 	public static void main(final String[] args) {

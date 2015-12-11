@@ -1,4 +1,4 @@
-package de.claudioaltamura.java8.stream;
+package de.claudioaltamura.java8.stream.example.student;
 
 /**
  * @author Claudio Altamura

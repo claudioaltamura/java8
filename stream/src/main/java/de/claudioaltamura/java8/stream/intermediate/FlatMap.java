@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class FlatMap {
 
 	public static void main(String[] args) {

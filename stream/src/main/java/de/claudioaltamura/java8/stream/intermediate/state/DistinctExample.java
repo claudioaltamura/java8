@@ -4,11 +4,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class DistinctExample {
 
 	public static void main(final String[] args)
 	{
-
 		final Stream<Integer> distinct = createIntStream().distinct();
 		final Stream<Integer> sorted = createIntStream().sorted();
 		final Stream<Integer> sortedAndDistinct = createIntStream().sorted().distinct();

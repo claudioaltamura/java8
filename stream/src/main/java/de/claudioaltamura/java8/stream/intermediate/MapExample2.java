@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class MapExample2 {
 
 	public static void main(String[] args) {

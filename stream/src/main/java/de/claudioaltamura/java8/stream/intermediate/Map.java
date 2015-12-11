@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+import de.claudioaltamura.java8.stream.Person;
+
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class Map {
 
 	public static void main(String[] args) {
@@ -15,7 +21,7 @@ public class Map {
 		final Stream<String> namesStream = adults.map(person -> person.getName());
 
 		final Stream<Integer> agesStream = persons.stream().map(Person::getAge).
-		filter(age -> age >= 18);
+				filter(age -> age >= 18);
 		namesStream.forEach(System.out::println);
 		agesStream.forEach(System.out::println);
 	}

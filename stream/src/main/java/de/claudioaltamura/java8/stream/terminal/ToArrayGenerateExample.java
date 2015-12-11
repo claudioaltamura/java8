@@ -5,6 +5,10 @@ import java.util.Random;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
+/**
+ * @author Claudio Altamura
+ * @see http://www.claudioaltamura.de
+ */
 public class ToArrayGenerateExample {
 
 	public static void main(final String[] args)
