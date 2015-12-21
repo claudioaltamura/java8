@@ -1,3 +1,3 @@
-def projects = ["bulkoperations","defaultmethods", "lambda-partone", "lambda-parttwo", "methodreferences", "stream"]
+def projects = ["bulkoperations","dateandtimeapi","defaultmethods", "lambda-partone", "lambda-parttwo", "methodreferences", "stream"]
 println projects
 include (*projects)
