@@ -9,11 +9,9 @@ public class YearMonthAndMonthDayExample {
 
 	public static void main(final String[] args)
 	{
-		final YearMonth yearMonth = YearMonth.of(2014, 2);
 		final YearMonth february2014 = YearMonth.of(2014, Month.FEBRUARY);
 
 		final int dayOfBirthday = 7;
-		final MonthDay monthDay1 = MonthDay.of(2, dayOfBirthday);
 		final MonthDay monthDay2 = MonthDay.of(Month.FEBRUARY, dayOfBirthday);
 
 		final Year year = Year.of(2012);

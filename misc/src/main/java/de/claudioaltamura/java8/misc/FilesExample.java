@@ -32,7 +32,6 @@ public class FilesExample {
 
 	final Stream<Path> tmpDirContent = Files.list(Paths.get(tempDirPath));
 	tmpDirContent.filter(path -> path.toString().endsWith(".txt")).forEach(System.out::println);
-
 	}
 
 }
