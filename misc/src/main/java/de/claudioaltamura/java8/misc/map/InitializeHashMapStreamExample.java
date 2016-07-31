@@ -29,10 +29,10 @@ public class InitializeHashMapStreamExample {
 
 		//Or
 		Map<Integer, String> myMap = Stream.of(
-				new SimpleEntry<>(1, "one"),
-				new SimpleEntry<>(10, "ten"))
+				new SimpleEntry<Integer, String>(1, "one"),
+				new SimpleEntry<Integer, String>(10, "ten"))
 				.collect(
-						Collectors.toMap((se) -> (Integer) se.getKey(), (se) -> (String) String.valueOf(se.getValue()))
+						Collectors.toMap((se) -> se.getKey(), (se) -> se.getValue())
 				);
 		System.out.println(myMap);
 
